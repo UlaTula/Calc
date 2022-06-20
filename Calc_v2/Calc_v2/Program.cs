@@ -27,6 +27,27 @@ class Program: Calculator
 
             Console.WriteLine();
             Console.Write("Please enter first value: ");
+
+            //try
+            //{
+            //    Console.WriteLine();
+            //    Console.Write("Please enter first value: ");
+            //    double firstNumberTry = Convert.ToDouble(Console.ReadLine());
+            //    Console.WriteLine($"You are inputed number: {firstNumberTry}");
+            //}
+
+            //catch (FormatException ex)
+            //{
+            //    string exceptionMessage = ex.Message;
+
+            //    Console.WriteLine($"This is not a number");
+            //    Console.WriteLine($"Error message {exceptionMessage}");
+            //}
+            //finally
+            //{
+            //    Console.WriteLine("Re-try with a different number.");
+            //}
+
             double firstNumber = Convert.ToDouble(Console.ReadLine());
 
             Console.Write("Please enter action (+, -, *, /): ");
